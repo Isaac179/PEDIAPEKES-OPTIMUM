@@ -72,7 +72,7 @@
 	</div--><!-- Loader /- -->
 
 	<!-- Style Switcher -->
-	<div class="style-switcher" id="choose_style">
+	<!--<div class="style-switcher" id="choose_style">
 		<a href="#." class="picker_close">
 			<i class="fa fa-gear fa-spin"></i>
 		</a>
@@ -101,7 +101,8 @@
 				</ul>
 			</div>
 		</div>
-	</div><!-- Style Switcher /- -->
+	</div>-->
+	<!-- Style Switcher /- -->
 
 <?php include("includes/header.php"); ?>
 
@@ -279,25 +280,15 @@
 					<div class="row">
 						<div class="col-md-8 col-sm-12 col-xs-12 our-clinic">
 							<div class="row welcome-left">
+
 								<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="other-services-block">
 										<div class="services-block-icon">
-											<i class="fa fa-ambulance"></i>
+											<i class="fa fa-stethoscope"></i>
 										</div>
 										<div class="other-services-content">
-											<h5>Emergency services</h5>
-											<p>Dolor sit amet consecdi pisicing eliamsed do eiusmod tempornu</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 col-sm-6 col-xs-6">
-									<div class="other-services-block">
-										<div class="services-block-icon">
-											<i class="fa fa-users"></i>
-										</div>
-										<div class="other-services-content">
-											<h5>Qualified Doctors</h5>
-											<p>Dolor sit amet consecdi pisicing eliamsed do eiusmod tempornu</p>
+											<h5>especialistas en pediatria</h5>
+											<p>Nuestro afecto por el cuidado, crecimiento y salud de los pequeños nos ha llevado a convertirnos en médicos especialistas<br><a href="">Ver Más</a></p>
 										</div>
 									</div>
 								</div>
@@ -305,22 +296,34 @@
 								<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="other-services-block">
 										<div class="services-block-icon">
-											<i class="fa fa-phone-square"></i>
+											<i class="fa fa-flag"></i>
 										</div>
 										<div class="other-services-content">
-											<h5>24/7 support</h5>
-											<p>Dolor sit amet consecdi pisicing eliamsed do eiusmod tempornu</p>
+											<h5>Nuestra Misión</h5>
+											<p>Proporcionar atención médica especializada en pediatría; con la mejor excelencia, seguridad y calidad para la prevención, diagnóstico y tratamiento de los niños. <a href="">Ver Más</a></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 col-sm-6 col-xs-6">
+									<div class="other-services-block">
+										<div class="services-block-icon">
+											<i class="fa fa-eye"></i>
+										</div>
+										<div class="other-services-content">
+											<h5>Nuestra Visión</h5>
+											<p>Reconocimiento, a nivel nacional, como un grupo de médicos con excelencia para la atención de pacientes pediátricos.</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="other-services-block">
 										<div class="services-block-icon">
-											<i class="fa fa-calendar"></i>
+											<i class="fa fa-heartbeat"></i>
 										</div>
 										<div class="other-services-content">
-											<h5>Online appointment</h5>
-											<p>Dolor sit amet consecdi pisicing eliamsed do eiusmod tempornu</p>
+											<h5>Nuestros Valores</h5>
+											<p>Atención, Respeto, Honestidad, Confianza, Calidad, Humanismo, Vanguardia, Salud, Seguridad.</p>
 										</div>
 									</div>
 								</div>
@@ -340,49 +343,50 @@
 				<div class="container">
 					<!-- Section Header -->
 					<div class="section-header">
-						<h3>Our Gallery</h3>
+						<h3>Tenemos la respuesta para la salud de sus hijos</h3>
 					</div>
 					<ul id="filters" class="portfolio-categories no-left-padding">
-						<li><a data-filter="*" class="active" href="#">Show All</a></li>
-						<li><a data-filter=".design" href="#">Denthal</a></li>
-						<li><a data-filter=".video" href="#">GastroEntorology</a></li>
-						<li><a data-filter=".photography" href="#">Surgeries</a></li>
-						<li><a data-filter=".web" href="#">Cardiology</a></li>
-						<li><a data-filter=".music" href="#">Patology</a></li>
+						<!--<li><a data-filter="*" class="active" href="#">Todo</a></li>-->
+						<li><a data-filter=".design" href="#">Neonatólogo</a></li>
+						<li><a class="active" data-filter=".video" href="#">Esquemas de vacunación</a></li>
+						<li><a data-filter=".photography" href="#">Infectología</a></li>
+						<li><a data-filter=".web" href="#">Consulta del niño sano</a></li>
+						<li><a data-filter=".music" href="#">Cuidados generales del niño</a></li>
+
 					</ul>
 					<ul class="portfolio-list no-left-padding">
 						<li class="col-md-4 col-sm-4 col-xs-6 design">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-1.jpg" alt="gallery">
+								<img src="assets/images/Neonatologo-Pediapekes.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
-									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<span>Departmento de Neonatólogia</span>
+									<h5>Paciente Feliz</h5>
+									<a href="#"><i class="fa fa-user-md"></i>80</a>
+									<a class="zoom-in" href="assets/images/Neonatologo-Pediapekes.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
 						</li>
 						<li class="col-md-4 col-sm-4 col-xs-6 video">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-2.jpg" alt="gallery">
+								<img src="assets/images/Pediapekes2.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
+									<span>Departmento de Infectologia</span>
+									<h5>Paciente Feliz</h5>
 									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<a class="zoom-in" href="assets/images/Pediapekes2.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
 						</li>
 						<li class="col-md-4 col-sm-4 col-xs-6 photography">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-3.jpg" alt="gallery">
+								<img src="assets/images/Pediapekes3.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
+									<span>Departmento de Vacunación</span>
+									<h5>Paciente Feliz</h5>
 									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<a class="zoom-in" href="assets/images/Pediapekes3.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
@@ -390,78 +394,42 @@
 
 						<li class="col-md-4 col-sm-4 col-xs-6 music">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-4.jpg" alt="gallery">
+								<img src="assets/images/Pediapekes2.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
+									<span>Departmento de Neonatólogia</span>
+									<h5>Paciente Feliz</h5>
 									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<a class="zoom-in" href="assets/images/Neonatologo-Pediapekes.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
 						</li>
 						<li class="col-md-4 col-sm-4 col-xs-6 web">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-5.jpg" alt="gallery">
+								<img src="assets/images/Pediapekes3.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
+									<span>Departmento de Infectologia</span>
+									<h5>Paciente Feliz</h5>
 									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<a class="zoom-in" href="assets/images/Pediapekes3.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
 						</li>
 						<li class="col-md-4 col-sm-4 col-xs-6 video">
 							<div class="content-image-block">
-								<img src="assets/images/gallery-6.jpg" alt="gallery">
+								<img src="assets/images/Neonatologo-Pediapekes.jpg" alt="gallery">
 								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
+									<span>Departmento de Vacunación</span>
+									<h5>Paciente Feliz</h5>
 									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
+									<a class="zoom-in" href="assets/images/Neonatologo-Pediapekes.jpg"><i class="fa fa-expand"></i></a>
 									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
 								</div>
 							</div>
 						</li>
 
-						<li class="col-md-4 col-sm-4 col-xs-6 photography">
-							<div class="content-image-block">
-								<img src="assets/images/gallery-7.jpg" alt="gallery">
-								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
-									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
-									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-						</li>
-						<li class="col-md-4 col-sm-4 col-xs-6 music">
-							<div class="content-image-block">
-								<img src="assets/images/gallery-8.jpg" alt="gallery">
-								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
-									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
-									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-						</li>
-						<li class="col-md-4 col-sm-4 col-xs-6 design">
-							<div class="content-image-block">
-								<img src="assets/images/gallery-6.jpg" alt="gallery">
-								<div class="content-block-hover">
-									<span>Cardiology Department</span>
-									<h5>Happy patient</h5>
-									<a href="#"><i class="fa fa-heart-o"></i>80</a>
-									<a class="zoom-in" href="assets/images/gallery-1.jpg"><i class="fa fa-expand"></i></a>
-									<a href="gallery-single.html"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-						</li>
-					</ul>
+
 				</div><!-- Container /- -->
 			</div><!-- Gallery Section -->
 
@@ -565,31 +533,31 @@
 				<div class="container">
 					<!-- Section Header -->
 					<div class="section-header">
-						<h3>What We Offer</h3>
+						<h3>Pediatras en Toluca </h3>
 					</div><!-- Section Header /- -->
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-6">
 							<div class="offer-box">
 								<i class="fa fa-hospital-o"></i>
-								<h5>Intensive Care</h5>
-								<p>Mister we could use a man like Herbert Hoover again. Love exciting and new. Come aboardwere expecting you.</p>
-								<a href="#" title="Read More">Read More</a>
+								<h5>tranquilidad para tu familia </h5>
+								<p>Neonatologos en mexico, clinica pediátrica, pediatria infantil, pediatra en línea, pediatra neonatólogo, hospital de pediatria, doctor pediatra, pediatria neonatologíaconsultorio medico pediatra, donde estudiar neonatología </p>
+								<!--<a href="#" title="Read More">Read More</a>-->
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-6">
 							<div class="offer-box">
 								<i class="fa fa-ambulance"></i>
-								<h5>24/7 Ambulance</h5>
-								<p>In crack commando was sent to prison by a military court for a crime they didn't commit. These men prompt-</p>
-								<a href="#" title="Read More">Read More</a>
+								<h5>Atendemos Casos Urgentes</h5>
+								<p>Pediatras en Toluca centro, pediatras centro medico Metepec, Medico pediatra neonatólogo, pediatria en Mexico, los mejores pediatras de Mexico centro pediatrico, consultorio pediatria, médico pediatra.</p>
+								<!--<a href="#" title="Read More">Read More</a>-->
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 col-xs-6">
 							<div class="offer-box">
 								<i class="fa fa-smile-o"></i>
-								<h5>Friendly Doctors</h5>
-								<p>Come aboard expecting you. Love life's sweetest reward Let it flow it floats back to you. It's a beautiful Day.</p>
-								<a href="#" title="Read More">Read More</a>
+								<h5>Doctores Amigables</h5>
+								<p>Clínica pediátrica, instituto de pediatria, master neonatología, enfermera pediatra neonatóloga, consulta medica pediátrica, clinica pediatra, consulta pediatra precio, medicina neonatal, pediatra de niños.</p>
+								<!--<a href="#" title="Read More">Read More</a>-->
 							</div>
 						</div>
 					</div>
@@ -601,47 +569,47 @@
 				<!-- Container -->
 				<div class="container">
 					<div class="department-header">
-						<h5>Departments</h5>
+						<h5>Subespecialidades</h5>
 					</div>
 					<div class="row">
 						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-1.png" alt="dept">
-								<span>Neurology</span>
+								<span>Infecciones respiratorias</span>
 							</div>
 						</div>
 						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-2.png" alt="dept">
-								<span>Cardiology</span>
+								<span>Infecciones gastrointestinales.</span>
 							</div>
 						</div>
 						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-3.png" alt="dept">
-								<span>Dermatology</span>
+								<span>Fiebre prolongada</span>
 							</div>
 						</div>
 						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-4.png" alt="dept">
-								<span>Gastroenterology</span>
+								<span>Catch-up de vacunas.</span>
 							</div>
 						</div>
 						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-5.png" alt="dept">
-								<span>Pediatrician</span>
+								<span>Clínica del viajero</span>
 							</div>
 						</div>
 
-						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
+						<!--<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-6.png" alt="dept">
-								<span>Otolaryngology</span>
+								<span>Uso racional de antibióticos</span>
 							</div>
-						</div>
-						<div class="col-md-2 col-sm-6 col-xs-6 department-box">
+						</div>-->
+						<!--<div class="col-md-2 col-sm-6 col-xs-6 department-box">
 							<div class="department-img-block">
 								<img src="assets/images/dept-7.png" alt="dept">
 								<span>Hematology</span>
@@ -664,10 +632,10 @@
 								<img src="assets/images/dept-10.png" alt="dept">
 								<span>Rheumatology</span>
 							</div>
-						</div>
+						</div>-->
 					</div>
 					<div class="show-all">
-						<a href="#" title="show all">show all</a>
+						<a href="contacto-pediatra-Toluca.html" title="show all">Contactanos</a>
 					</div>
 				</div><!-- Container /- -->
 			</div><!-- Department Section -->

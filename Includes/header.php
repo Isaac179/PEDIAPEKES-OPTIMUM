@@ -52,9 +52,9 @@
               <li><a href="header20.html" title="Header 20">Header 20</a></li>
             </ul>-->
           </li>
-          <li><a title="About" href="infectologo.php">Infectólogo</a></li>
+          <li><a title="About" href="pediatra-infectologo-en-Toluca.php">Infectólogo</a></li>
           <li><a title="Services" href="services.html">Preguntas frecuentes</a></li>
-          <li><a title="Doctor" href="#team-section">Contacto</a></li>
+          <li><a title="Doctor" href="contacto-pediatra-Toluca.html">Contacto</a></li>
           <li><a title="Work" href="gallery.html">Emergencias</a></li>
           <!--<li class="dropdown">
             <a href="#" class="dropdown-toggle" title="Blog" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
